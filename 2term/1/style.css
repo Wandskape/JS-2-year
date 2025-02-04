@@ -1,0 +1,44 @@
+.field {clear:both;  line-height:25px;}
+label {float:left; width: 200px; padding-right:10px;}
+.main {float:left}
+.butt{
+    clear:both; text-align:right; line-height:25px;
+    float:left; padding-right:10px;
+}
+
+select{
+    width: 170px;
+    background-color: rgb(233, 233, 233);
+    border: black 1px solid;
+    border-radius: 5px;
+}
+
+input , textarea{
+    background-color: rgb(233, 233, 233);
+    border: black 1px solid;
+    border-radius: 5px;
+}
+
+.chek{
+    float:left;
+}
+
+.wide{
+    width: 300px;
+    height: 100px;
+}
+
+.mem{
+    width: 40px;
+}
+
+.error {
+    display: block;
+    position: relative;
+}
+
+span{
+    /* margin-left: 212px;
+    margin-top: 10px; */
+    color: red;
+}

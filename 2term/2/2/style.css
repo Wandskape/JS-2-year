@@ -1,0 +1,61 @@
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type=number] {
+    width: 60px;
+    box-sizing: border-box;
+}
+
+form {
+    width: 220px;
+}
+
+.score{
+    position: absolute;
+    top: 5px; left: 700px;
+}
+
+.wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.nap{
+    margin-top: 120px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.boll {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 390px;
+    height: 90px;
+    background-color: red;
+    border-radius: 50%;
+    transform: translate(-50%, +90%);
+    z-index: -1;
+}
+
+.GameAnswer{
+    position: absolute;
+    top: -30px; left: 600px;
+}
+
+.refresh{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+

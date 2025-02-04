@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form class="main" id="form">
+        <h2>Заполните форму:</h2>
+        <div class="field"><label>Фамилия</label> <input type="text" id="firstname"><span class="error"></span></div><br>
+        <div class="field"><label>Имя</label><input type="text" id="secondname"><span class="error"></span></div><br>
+        <div class="field"><label>E-mail</label><input type="email" id="Email"><span class="error"></span></div><br>
+        <div class="field"><label>Телефон (0xx)xxx-xx-xx</label><input type="tel" id="Telephone"><span class="error"></span></div><br>
+        <div class="field"><label>Город</label>
+        <select>
+            <option selected>Минск</option>
+            <option selected>Витебск</option>
+            <option selected>Гродно</option>
+            <option selected>Гомель</option>
+            <option selected>Могилёв</option>
+            <option selected>Брест</option>
+        </select></div><br>
+        <div class="field"><label>Я учусь в БГТУ </label>
+        <input type="checkbox" class="chek"></div><br>
+        <div class="field"><label>На каком курсе Вы учитесь?</label>
+        <label class="mem">
+            <input type="radio" name="course"> 1
+        </label>
+        <label class="mem">
+            <input type="radio" name="course"> 2
+        </label>
+        <label class="mem">
+            <input type="radio" name="course"> 3
+        </label>
+        <label class="mem">
+            <input type="radio" name="course"> 4
+        </label></div><br>
+        <div class="field"><label>Расскажите о себе</label>
+        <textarea class="wide" id="about"></textarea><span class="error"></span></div><br>
+        <div class="butt"><button type="submit">Проверить</button></div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
